@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiki-App</title>
+    <link rel='shortcut icon' type='image/icon' href='wiki-icon.png' />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script> <!--Jquery-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--BootstrapCSS-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!--BootstrapJS-->
+    <script src="script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Font Awesome Web Application Icons -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand">Wiki App</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"> <a href="https://codeboy47.github.io/Wikipedia-Search-App">Project 1</a> </li>
+		  <li> <a href="https://codeboy47.github.io/Obstacle-Avoidance-Car">Project 2</a> </li>
+	      <li> <a href="https://codeboy47.github.io/Sloppy-Bird">Project 3</a> </li>
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+	      <li><a href="https://github.com/codeboy47"><span class="glyphicon glyphicon-user"></span> User Profile </a></li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<div id = "divContainer" class="container-fluid text-center">
+    	<br>
+		<br>
+
+		<h1>Wiki App</h1>
+		<h4>Search what you want !!!</h4>
+
+		<input type="search" id="search" placeholder="Search...">
+
+		<span id = "cross" > </span>
+
+		<button id="myButton" class="btn btn-success" >
+			 <span class="glyphicon glyphicon-search"></span> Search here
+		</button>
+
+		<br>
+		<br>
+
+		<!-- This is to generate random page of wikipedia -->
+		<a href='https://en.wikipedia.org/wiki/Special:Random' target='_self'>
+			<button class="btn btn-danger"> Random Article </button>
+		</a>
+
+
+		<div id="divID"></div>
+
+		<br>
+
+		<footer> <h4 id="devBy">Developed by <a id="ak" href="https://github.com/codeboy47">Akshit Singh</a> <h4> </footer>
+
+	</div>
+
+</body>
+</html>
